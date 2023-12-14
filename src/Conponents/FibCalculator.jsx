@@ -14,9 +14,7 @@ const fibonnaci = (num) => {
 const FibCalculator = ({numero}) => {
 
     //console.log(numero) 
-    const fibResult = useMemo(() => {
-        return fibonnaci(numero);
-    }, [numero])         
+    const fibResult = useMemo(() => fibonnaci(numero), [numero]);         
 
   return (
     <div>

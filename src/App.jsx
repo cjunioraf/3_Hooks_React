@@ -58,10 +58,9 @@ function App() {
       {/* Exercício do professor */}
       <Exercicio_Curso/>
       {/* Exercício 2 meu refeito */}
-      <FibCalculator numero={8}/>
+      <FibCalculator numero={10}/>
       {/* Exercício 3 meu refeito */}
       <UserStatusConnect />
-
     </>
   )
 }
