@@ -19,6 +19,5 @@ export default function userConnectStatus() {
 
     }, [])
 
-    //console.log(status);
     return status;
 }
